@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1000px;
+    height: 1000px;
+
+    margin: 0 auto;
+
+    position: relative;
+}
+
+.blue_square {
+    width: 40%;
+    height: 40%;
+    
+    margin: 0 auto;
+
+    position: absolute;   
+    left: 25%;
+    top: 20%;
+    z-index: 10;
+
+    background: skyblue;
+}
+
+.yellow_square {
+    width: 25%;
+    height: 25%;
+    border-radius: 25%;
+
+    position: absolute;
+    left: 32.5%;
+    top: 27.5%;
+    z-index: 15;
+
+    background: yellow;
+}
+
+.red_circle {
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+
+    z-index: 5;
+
+    background: red;
+}
+
+.circle_left_top {
+    position: absolute;
+    bottom: 70%;
+    left: 15%;
+}
+
+.circle_right_top {
+    position: absolute;
+    bottom: 70%;
+    left: 55%;
+}
+
+.circle_left_bottom {
+    position: absolute;
+    bottom: 30%;
+    left: 15%;
+}
+
+.circle_right_bottom {
+    position: absolute;
+    bottom: 30%;
+    left: 55%;
+}
+
+.red_circle:hover {
+    cursor: pointer;
+    z-index: 20;
+}
+
+.circle_left_top:hover {
+    background: lime;
+}
+
+.circle_right_top:hover {
+    background: darkorange;
+}
+
+.circle_left_bottom:hover {
+    background: darkolivegreen;
+}
+
+.circle_right_bottom:hover {
+    background: magenta;
+}
+
+.blue_square:hover {
+    cursor: pointer;
+    background: greenyellow;
+    z-index: 25;     
+}
+
+
+
